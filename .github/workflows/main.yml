@@ -20,5 +20,6 @@ jobs:
 
     - name: Create deployment ackage
       run : zip -r ${{ env.DEPLOY_PACKAGE_NAME }} ./ -x *.git*
-      
+    - name: view  
+      run : ls -al
     
